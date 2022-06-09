@@ -1,3 +1,7 @@
+//buttons
+let qBtn = document.getElementById("random");
+
+//canvas
 let c = document.getElementById("myCanvas");
 let ctx = c.getContext("2d");
 
