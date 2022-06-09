@@ -1,0 +1,19 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.773);
+}
+
+.container {
+  background-color: rgb(255, 255, 255);
+  width: 30rem;
+  margin: 2rem auto;
+}
+
+.drumkit {
+  margin: 0 auto;
+  background-image: url("Drums.jpg");
+  background-size: contain;
+}

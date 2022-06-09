@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DrumKit</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <audio id="clap" controls style="display: none">
+      <source src="/DrumSounds/clap.wav" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+    <audio id="hiHat" controls style="display: none">
+      <source src="/DrumSounds/hihat.wav" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+    <audio id="kick" controls style="display: none">
+      <source src="/DrumSounds/kick.wav" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+    <audio id="openHat" controls style="display: none">
+      <source src="/DrumSounds/openhat.wav" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+    <audio id="ride" controls style="display: none">
+      <source src="/DrumSounds/ride.wav" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+    <audio id="snare" controls style="display: none">
+      <source src="/DrumSounds/snare.wav" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+    <audio id="tink" controls style="display: none">
+      <source src="/DrumSounds/tink.wav" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+    <audio id="tom" controls style="display: none">
+      <source src="/DrumSounds/tom.wav" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+    <div class="container">
+      <h1>Let's play some drums</h1>
+      <p>Press the corresponding key on your keyboard to play the sound</p>
+      <ul>
+        <li>Press Q to play clap</li>
+        <li>Press W to play hi-hat</li>
+        <li>Press E to play kick</li>
+        <li>Press R to play open hat</li>
+        <li>Press Y to play ride</li>
+        <li>Press U to play snare</li>
+        <li>Press I to play tink</li>
+        <li>Press O to play tom</li>
+      </ul>
+    </div>
+    <div class="drumkit">
+      <canvas id="myCanvas" width="480" height="320"></canvas>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
