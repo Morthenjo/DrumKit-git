@@ -4,16 +4,40 @@ body {
   display: flex;
   flex-direction: column;
   background-color: rgba(0, 0, 0, 0.773);
+  color: aliceblue;
 }
 
 .container {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(80, 66, 66);
   width: 30rem;
   margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .drumkit {
   margin: 0 auto;
   background-image: url("Drums.jpg");
   background-size: contain;
+}
+
+button {
+  margin: 0.5rem 0;
+  width: 7rem;
+  height: 3rem;
+  justify-content: space-around;
+  border: 0.3rem solid rgb(43, 131, 40);
+  font-weight: 800;
+  color: rgb(204, 230, 197);
+  background-color: blue;
+}
+
+button:hover {
+  background-color: rgb(17, 17, 142);
+  border: 0.3rem solid rgb(7, 157, 7);
+}
+
+button:active {
+  background-color: rgb(35, 46, 189);
+  border: 0.3rem solid green;
 }
